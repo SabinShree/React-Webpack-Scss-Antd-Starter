@@ -1,0 +1,14 @@
+babel-loader which is used by webpack to check how to convert some functionality (like syntax change from es6 to older versions.)
+@babel/core , core which is used to get all core functionality of javascript.
+@babel/preset-env for browser compatibility
+
+
+/// webpack 
+webpack-watch : watch the file for changes, and recompile, so that we dont have to recompile again after 
+
+
+/// babel configuration
+ ["@babel/preset-react", { runtime: "automatic" }],
+ this line is used to automatically import react in project. we dont need to import
+ react in each and every file.This line does automatically for you.
+ 
